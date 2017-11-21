@@ -1,0 +1,31 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/libs/EventEmitter.js",
+        "src/core/Popup.js",
+        "src/core/Socket.js",
+
+
+        "src/ui/popups/AddPlayersPopup.js",
+        "src/ui/popups/StartGamePopup.js",
+        "src/ui/popups/LoginScreenPopup.js",
+        "src/ui/popups/AskQuestionPopup.js",
+        "src/ui/popups/AnswerPopup.js",
+        "src/ui/popups/Loader.js",
+
+        "src/layers/PlayerLayer.js",
+        "src/resource.js",
+        "src/app.js"
+    ]
+}
